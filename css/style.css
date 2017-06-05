@@ -190,6 +190,7 @@ header .container{
     border: none;
     border-radius: 10px;
     margin: 0 0 25px 0;
+    color: #000;
 }
 
 .consalt form input[type="submit"]{
@@ -352,12 +353,42 @@ header .container{
 	background: #fff;
 }
 
+.galaey_frame_item{
+	width: 25%;
+	cursor: pointer;
+	float: left;
+}
+
+.galaey_frame_item{
+	padding: 0 5px;
+}
+
+.galaey_frame_item:hover{
+	opacity: 0.8;
+	margin-bottom: 3px;
+}
+
+.galaey_frame_show{
+	margin: 0 0 25px 0;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.galaey_frame_show_slide{
+	margin: 0 -5px;
+}
+
 .story h1{
 	text-align: center;
 	font-weight: bold;
 	font-size: 46px;
 	text-transform: uppercase;
 	margin: 100px 0 60px 0;
+}
+
+.galaey_frame_item_body{
+	overflow: hidden;
+	border-radius: 5px;
 }
 
 .story .body{

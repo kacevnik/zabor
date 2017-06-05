@@ -37,6 +37,10 @@ jQuery(document).ready(function ($) {
         return false;
     });
 
+    $('.galaey_frame_item').click(function(){
+    	$(this).parent().parent().find('.galaey_frame_show img').attr('src',$(this).find('img').attr('src'));
+    });
+
 
   	$(".owl-carousel").owlCarousel({
   		items : 1,
