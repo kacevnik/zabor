@@ -605,3 +605,11 @@ header .container{
 footer{
 	border-top: 2px solid #ffc600;
 }
+
+#hidden_thansk{
+	border-radius: 5px;
+}
+
+#hidden_thansk h2{
+	text-align: center;
+}

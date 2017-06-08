@@ -1,0 +1,73 @@
+@media (max-width: 428px) {
+
+	.container {
+	    padding-left: 15px;
+	    padding-right: 15px;
+	}
+
+	.logo {
+    	font-size: 40px;
+	}
+
+	.logo span {
+    	font-size: 19px;
+    }
+
+    .slogan {
+    	text-align: center;
+    	padding: 50px 0 10px 0;
+	}
+
+	.phone_number {
+    	font-size: 24px;
+	}
+
+	.phone_number i {
+    	font-size: 24px;
+	}
+
+	.phone_back a {
+    	padding: 12px 22px;
+	}
+
+	.top h1 {
+    	font-size: 36px;
+	}
+
+	.consalt form input[type="text"] {
+    	width: 230px;
+ 	}
+
+ 	.consalt form input[type="submit"] {
+    	width: 225px;
+	}
+
+	.story h1 {
+    	font-size: 36px;
+	}
+
+	.video_otziv_body .video a {
+	    height: 213px;
+	    margin: 0 0 25px 0;
+	}
+
+	.answer .cit .body {
+	    margin: 0 0 25px 0;
+	}
+
+	.answer_form_body textarea {
+    	width: 197px;
+	}
+
+	.answer_form_body input[type="text"] {
+    	width: 197px;
+	}
+
+	.answer_form_body input[type="submit"] {
+    	width: 197px;
+	}
+
+	footer {
+    	padding: 0 0 60px 0;
+	}
+}

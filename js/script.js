@@ -41,8 +41,11 @@ jQuery(document).ready(function ($) {
     	$(this).parent().parent().find('.galaey_frame_show img').attr('src',$(this).find('img').attr('src'));
     });
 
-
-
+    $("form").ajaxForm(function(){
+		//$("a[title='Close']").trigger("click");
+		$("form").clearForm();
+		$("#modal_view_thanks").trigger("click");	
+	});
 
   	$(".owl-carousel").owlCarousel({
   		items : 1,

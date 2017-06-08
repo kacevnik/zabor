@@ -7,9 +7,10 @@ require 'phpmailer/class.phpmailer.php';
 // ==== раскомментировать, если письма отправляются без значений полей ====
 $text = '';
 $adminEmail = 'kacevnik@yandex.ru';
-$email = $_POST['email']; if($email){$text = 'Имя пользователя: '.$email.'<br>';}
-$phone = $_POST['phone']; if($phone){$text = $text.'Телефон пользователя: '.$phone.'<br>';}
-$form = $_POST['hidden'];
+$email = $_POST['email'];     if($email){$text = 'Имя пользователя: '.$email.'<br>';}
+$phone = $_POST['phone'];     if($phone){$text = $text.'Телефон пользователя: '.$phone.'<br>';}
+$message = $_POST['message']; if($message){$text = $text.'Сообщение: '.$message.'<br>';}
+$form = $_POST['form'];
 
 //Create a new PHPMailer instance
 $mail = new PHPMailer;

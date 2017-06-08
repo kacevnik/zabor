@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="fancybox/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -387,7 +388,7 @@
                 <form action="send.php" method="post">
                   <h4>Остались вопросы?</h4>
                   <p>Введите свой вопрос,<br> и в течении 15 минут<br> мы с Вами свяжемся</p>
-                  <textarea required=""></textarea>
+                  <textarea required="" name="message"></textarea>
                   <input type="text" class="phone" name="phone" required="">
                   <input type="hidden" name="form" value="Вопрос по теме">
                   <input type="submit" value="Задать вопрос">
@@ -421,13 +422,18 @@
         </div>
       </div> 
     </footer>
+    <a data-fancybox data-src="#hidden_thansk" href="javascript:;" id="modal_view_thanks" style="display: none;"></a>
+    <div style="display: none;" id="hidden_thansk">
+    <h2>Спасибо!</h2>
+      <p>Мы ответим Вам в течении 15 минут</p>
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.mikeinput.min.js"></script>
     <script src="owlcarousel/owl.carousel.min.js"></script>
     <script src="js/jquery.form.js"></script>
-    <script src="fancybox-custom/jquery.fancybox.pack.js"></script>
+    <script src="fancybox/jquery.fancybox.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
