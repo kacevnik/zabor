@@ -5,10 +5,10 @@ require 'phpmailer/class.phpmailer.php';
 
 // ==== Принудительный захват массива переменных ==========================
 // ==== раскомментировать, если письма отправляются без значений полей ====
-
-$adninEmail = 'kacevnik@yandex.ru';
-$email = $_POST['name']; if($email){$emailText = 'Имя пользователя: '.$email.'<br>';}
-$phone = $_POST['phone']; if($phone){$phone = 'Телефон пользователя: '.$phone.'<br>';}
+$text = '';
+$adminEmail = 'kacevnik@yandex.ru';
+$email = $_POST['email']; if($email){$text = 'Имя пользователя: '.$email.'<br>';}
+$phone = $_POST['phone']; if($phone){$text = $text.'Телефон пользователя: '.$phone.'<br>';}
 $form = $_POST['hidden'];
 
 //Create a new PHPMailer instance
@@ -16,16 +16,16 @@ $mail = new PHPMailer;
 
 $mail->CharSet = 'UTF-8';
 // От кого
-$mail->setFrom($adninEmail, 'Wood-cnt');
+$mail->setFrom($adminEmail, 'Сиб-Стройка.рф');
 
 // Кому
-$mail->addAddress($adninEmail, $adninEmail);
+$mail->addAddress($adminEmail);
 
 // Тема
 $mail->Subject = $form;
 
 // convert HTML into a basic plain-text alternative body
-$mail->msgHTML($emailText.$phone);
+$mail->msgHTML($text);
 
 
 if (!$mail->send()) {

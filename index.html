@@ -61,8 +61,9 @@
                 <div class="sub_header">Не знаете как построить забор?</div>
                 <h3>Закажите <span>БЕСПЛАТНУЮ</span> консультацию</h3>
                 <div class="sub_header">Мы подскажем<br> Подготовим детальную смету</div>
-                <form action="">
+                <form action="send.php" method="post">
                   <input type="text" name="phone" class="phone" required="">
+                  <input type="hidden" name="form" value="Запрос на заказ консультации">
                   <span class="border_submit"><input type="submit" name="submit" value="Заказать консультацию"></span>
                 </form>
                 <div class="footer_header">Заполнение заявки Вас ни к чему не обязывает!<br> Вы сможете отказаться в любой момент</div>
@@ -383,11 +384,12 @@
           <div class="col-md-5 col-md-offset-1">
             <div class="answer_form">
               <div class="answer_form_body">
-                <form action="">
+                <form action="send.php" method="post">
                   <h4>Остались вопросы?</h4>
                   <p>Введите свой вопрос,<br> и в течении 15 минут<br> мы с Вами свяжемся</p>
                   <textarea required=""></textarea>
-                  <input type="text" class="phone" required="">
+                  <input type="text" class="phone" name="phone" required="">
+                  <input type="hidden" name="form" value="Вопрос по теме">
                   <input type="submit" value="Задать вопрос">
                 </form>
               </div>
@@ -424,6 +426,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.mikeinput.min.js"></script>
     <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/jquery.form.js"></script>
     <script src="fancybox-custom/jquery.fancybox.pack.js"></script>
     <script src="js/script.js"></script>
   </body>
