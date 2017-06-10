@@ -1,36 +1,42 @@
 <?php
 
-require 'phpmailer/class.phpmailer.php';
+require 'PHPMailer/PHPMailerAutoload.php';
 
 
 // ==== Принудительный захват массива переменных ==========================
 // ==== раскомментировать, если письма отправляются без значений полей ====
 $text = '';
-$adminEmail = 'kacevnik@yandex.ru';
+$adminEmail = 'zabor-nsk54@yandex.ru';
 $email = $_POST['email'];     if($email){$text = 'Имя пользователя: '.$email.'<br>';}
 $phone = $_POST['phone'];     if($phone){$text = $text.'Телефон пользователя: '.$phone.'<br>';}
 $message = $_POST['message']; if($message){$text = $text.'Сообщение: '.$message.'<br>';}
 $form = $_POST['form'];
 
-//Create a new PHPMailer instance
+
+
 $mail = new PHPMailer;
-
 $mail->CharSet = 'UTF-8';
-// От кого
-$mail->setFrom($adminEmail, 'Сиб-Стройка.рф');
+//$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
-// Кому
-$mail->addAddress($adminEmail);
+$mail->isSMTP();                                      // Set mailer to use SMTP
+$mail->Host = 'smtp.mail.ru';  // Specify main and backup SMTP servers
+$mail->SMTPAuth = true;                               // Enable SMTP authentication
+$mail->Username = 'prof.zabor-nvs@mail.ru';                 // SMTP username
+$mail->Password = 'Z9564665z';                           // SMTP password
+$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
+$mail->Port = 465;                                    // TCP port to connect to
 
-// Тема
+$mail->setFrom('prof.zabor-nvs@mail.ru', 'Сиб-Стройка.рф');
+$mail->addAddress($adminEmail, $adminEmail);     // Add a recipient            
+
+$mail->isHTML(true);                                  // Set email format to HTML
+
 $mail->Subject = $form;
-
-// convert HTML into a basic plain-text alternative body
-$mail->msgHTML($text);
+$mail->Body    = $text;
 
 
-if (!$mail->send()) {
-    echo "Mailer Error: " . $mail->ErrorInfo;
+if(!$mail->send()) {
+    echo 'Mailer Error: ' . $mail->ErrorInfo;
 } else {
-  // echo "Message sent!";
+    //echo 'Message has been sent';
 }
