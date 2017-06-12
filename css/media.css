@@ -71,3 +71,14 @@
     	padding: 0 0 60px 0;
 	}
 }
+
+@media (max-width: 636px) {
+	.bottom_menu{
+		margin-top: 0px;
+		border-top: 2px solid #ffc600;
+	}	
+
+	.bottom_menu_item{
+		width: 100%;
+	}
+}

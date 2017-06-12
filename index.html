@@ -39,7 +39,7 @@
             <div class="phone_text">Есть вопросы? Звоните!</div>
             <div class="phone_number"><i class="fa fa-phone"></i> 8-800-800-8000</div>
             <div class="phone_back">
-              <a href="" class="header_back">Заказать обратный звонок</a>
+              <a data-fancybox data-src="#hidden_back" href="javascript:;" class="header_back">Заказать обратный звонок</a>
             </div>
           </div>
         </div>
@@ -94,7 +94,7 @@
                 <div class="bottom"></div>
               </div>
               <div class="price">Цена от <span>1400 руб/п.м.</span></div>
-              <a href="#" class="show-a">Узнать цену под ключ</a>
+              <a data-fancybox data-src="#hidden_price" href="javascript:;" class="show-a">Узнать цену под ключ</a>
             </div>
             <!--end item-->
           </div>
@@ -109,7 +109,7 @@
                 <div class="bottom"></div>
               </div>
               <div class="price">Цена от <span>1400 руб/п.м.</span></div>
-              <a href="#" class="show-a">Узнать цену под ключ</a>
+              <a data-fancybox data-src="#hidden_price" href="javascript:;" class="show-a">Узнать цену под ключ</a>
             </div>
             <!--end item-->
           </div>
@@ -124,7 +124,7 @@
                 <div class="bottom"></div>
               </div>
               <div class="price">Цена от <span>1400 руб/п.м.</span></div>
-              <a href="#" class="show-a">Узнать цену под ключ</a>
+              <a data-fancybox data-src="#hidden_price" href="javascript:;" class="show-a">Узнать цену под ключ</a>
             </div>
             <!--end item-->
           </div>
@@ -142,7 +142,7 @@
                 <div class="bottom"></div>
               </div>
               <div class="price">Цена от <span>1400 руб/п.м.</span></div>
-              <a href="#" class="show-a">Узнать цену под ключ</a>
+              <a data-fancybox data-src="#hidden_price" href="javascript:;" class="show-a">Узнать цену под ключ</a>
             </div>
             <!--end item-->
           </div>
@@ -157,7 +157,7 @@
                 <div class="bottom"></div>
               </div>
               <div class="price">Цена от <span>1400 руб/п.м.</span></div>
-              <a href="#" class="show-a">Узнать цену под ключ</a>
+              <a data-fancybox data-src="#hidden_price" href="javascript:;" class="show-a">Узнать цену под ключ</a>
             </div>
             <!--end item-->
           </div>
@@ -172,7 +172,7 @@
                 <div class="bottom"></div>
               </div>
               <div class="price">Цена от <span>1400 руб/п.м.</span></div>
-              <a href="#" class="show-a">Узнать цену под ключ</a>
+              <a data-fancybox data-src="#hidden_price" href="javascript:;" class="show-a">Узнать цену под ключ</a>
             </div>
             <!--end item-->
           </div>
@@ -399,6 +399,16 @@
         </div>
       </div>  
     </section>
+    <section class="bottom_menu">
+      <div class="container">
+        <div class="row">
+          <div class="bottom_menu_item"><a href="#exemple">ВАРИАНТЫ ЗАБОРОВ</a></div>
+          <div class="bottom_menu_item"><a href="#story">Отчеты</a></div>
+          <div class="bottom_menu_item"><a href="#video_otziv">Отзывы о работе</a></div>
+          <div class="bottom_menu_item"><a href="#answer">Задайте вопрос</a></div>
+        </div>
+      </div>
+    </section>
     <footer>
       <div class="container">
         <div class="row">
@@ -416,7 +426,7 @@
             <div class="phone_text">Есть вопросы? Звоните!</div>
             <div class="phone_number"><i class="fa fa-phone"></i> 8-800-800-8000</div>
             <div class="phone_back">
-              <a href="">Заказать обратный звонок</a>
+              <a data-fancybox data-src="#hidden_back" href="javascript:;">Заказать обратный звонок</a>
             </div>
           </div>
         </div>
@@ -426,6 +436,32 @@
     <div style="display: none;" id="hidden_thansk">
     <h2>Спасибо!</h2>
       <p>Мы ответим Вам в течении 15 минут</p>
+    </div>
+    <div class="back" id="hidden_back" style="display: none;">
+	    <div class="answer_form">
+	      <div class="answer_form_body">
+	        <form action="send.php" method="post">
+	          <h4>Мы перезвоним</h4>
+	          <p>Укажите свой телефон,<br> и в течении 15 минут<br> мы с Вами свяжемся</p>
+	          <input type="text" class="phone" name="phone" required="">
+	          <input type="hidden" name="form" value="Обратный звонок">
+	          <input type="submit" value="Отправить">
+	        </form>
+	      </div>
+	    </div>
+    </div>
+    <div class="back" id="hidden_price" style="display: none;">
+	    <div class="answer_form">
+	      <div class="answer_form_body">
+	        <form action="send.php" method="post">
+	          <h4>Узнайте<br> Стоимость забора</h4>
+	          <p>Укажите свой телефон,<br> и в течении 15 минут<br> мы с Вами свяжемся</p>
+	          <input type="text" class="phone" name="phone" required="">
+	          <input type="hidden" name="form" value="">
+	          <input type="submit" value="Отправить">
+	        </form>
+	      </div>
+	    </div>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

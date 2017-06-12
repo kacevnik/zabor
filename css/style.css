@@ -608,8 +608,47 @@ footer{
 
 #hidden_thansk{
 	border-radius: 5px;
+	padding: 24px;
+	background: #fff;
 }
 
 #hidden_thansk h2{
 	text-align: center;
+}
+
+.back .answer_form{
+	background: #f7f7f7;
+	border-radius: 18px;
+	padding: 10px;
+	max-width: 387px;
+}
+
+.back .answer_form_body{
+	border-radius: 10px;
+	border: 3px dashed #ffc600;
+	padding: 50px 30px;
+}
+
+.fancybox-slide>* {
+    position: relative;
+	padding: 0;
+    background: none;
+}
+
+.bottom_menu{
+	margin-top: -52px;
+}
+
+.bottom_menu_item{
+	width: 25%;
+	float: left;
+	text-align: center;
+	padding: 10px;
+}
+
+.bottom_menu_item a{
+	color: #000;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
