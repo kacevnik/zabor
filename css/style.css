@@ -62,9 +62,9 @@ header .container{
 .phone_number{
 	font-weight: bold;
 	text-align: center;
-	font-size: 38px;
+	font-size: 30px;
 	line-height: 0.9;
-    padding-bottom: 25px;
+	padding-bottom: 25px;
 }
 
 .phone_number i{
@@ -81,8 +81,8 @@ header .container{
 	color: #fff;
 	background: #ff7200;
 	border-radius: 10px;
-	padding: 12px 40px;
-    font-size: 18px;
+	padding: 12px 18px;
+	font-size: 18px;
 }
 
 .phone_back a:hover{
@@ -195,11 +195,12 @@ header .container{
 
 .consalt form input[type="submit"]{
 	width: 300px;
-    padding: 14px;
-    border-radius: 10px;
-    border: none;
-    background: #ff7200;
-    font-weight: bold;
+	padding: 14px;
+	border-radius: 10px;
+	border: none;
+	background: #ff7200;
+	font-weight: bold;
+	font-size: 16px;
 }
 
 .consalt form input[type="submit"]:hover{
@@ -234,6 +235,21 @@ header .container{
     display: block;
     border-radius: 10px;
     margin: 0 0 25px 0;
+}
+
+.video_top .sh1-video{
+	background: #000 url(../img/show_video1.png)no-repeat center center;
+	background-size: 100%;
+}
+
+.video_otziv_body .video .sh2-video{
+	background: #000 url(../img/show_video2.png)no-repeat center center;
+	background-size: 100%;
+}
+
+.video_otziv_body .video .sh3-video{
+	background: #000 url(../img/show_video3.png)no-repeat center center;
+	background-size: 100%;
 }
 
 .exemple{
@@ -276,11 +292,11 @@ header .container{
 
 .exemple .desc{
 	text-align: center;
-    color: #fff;
-    font-size: 26px;
-    font-weight: 100;
-    padding: 82px 20px 0 20px;
-    position: relative;
+	color: #fff;
+	font-size: 24px;
+	padding: 17px 20px 0 20px;
+	position: relative;
+	font-weight: 400;
 }
 
 .exemple .desc:before{
@@ -630,7 +646,7 @@ footer{
 }
 
 .fancybox-slide>* {
-    position: relative;
+   /* position: relative;*/
 	padding: 0;
     background: none;
 }
@@ -652,3 +668,115 @@ footer{
     font-weight: bold;
     text-transform: uppercase;
 }
+
+#menu-scroll{
+	position: fixed;
+	display: none;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999;
+	background: rgba(0, 0, 0, 0.68);
+	padding: 20px 0;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.88);
+}
+
+#menu-scroll ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	font-size: 16px;
+	align-items: center;
+}
+
+#menu-scroll a{
+	color: #fff;
+}
+
+#menu-scroll .phone{
+	font-weight: bold;
+	text-align: center;
+	font-size: 24px;
+	color: #ffc600;
+}
+
+#menu-scroll ul li:first-child{
+	font-weight: bold;
+	text-align: center;
+	font-size: 17px;
+	color: #ffc600;
+	border: 2pt dashed #ffc600;
+	padding: 10px 20px;
+}
+
+@media (max-width: 768px){
+	#menu-scroll ul {
+		display: block;
+		text-align: center;
+	}
+}
+
+.back .answer_form.big-form {
+	max-width: 800px;
+	width: 800px;
+}
+
+
+.big-form .owl-carousel .arrow_next_owl {
+	width: 40px;
+	height: 40px;
+	background: url(../img/arrow_next.png)no-repeat center center;
+	background-size: cover;
+}
+
+.big-form .owl-carousel .arrow_prev_owl {
+	width: 40px;
+	height: 40px;
+	background: url(../img/arrow_prev.png)no-repeat center center;
+	background-size: cover;
+}
+
+.big-form .owl-carousel .owl-prev {
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	margin-top: -20px;
+}
+
+.big-form .owl-carousel .owl-next {
+	position: absolute;
+	top: 50%;
+	right: 15px;
+	margin-top: -20px;
+}
+
+.img-work-box {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.img-work-box img {
+	width: 110px;
+	height: 89px;
+	margin: 0 3px;
+}
+
+.big-form .answer_form_body h4 {
+	font-size: 27px;
+}
+
+.phone-text span{
+	font-size: 30px;
+	display: block;
+	font-weight: bold;
+	color: #ff7200;
+}
+
+.phone-text {
+	margin-top: 20px;
+}
+
+

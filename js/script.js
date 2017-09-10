@@ -1,4 +1,10 @@
-jQuery(document).ready(function ($) {	
+jQuery(document).ready(function ($) {
+
+	$('.show-a').click(function(){
+		var val = 'Нужна цена на: ';
+    	$('#hidden_price').find('[name="form"]').attr('value', val+$(this).parent().find('.desc').text());
+    });	
+
 	$('.top').css({"margin-top": $('header').height()*-1+'px'});
 	$('.bottom_line_right').css({"border-right-width": $(window).width()/2+'px'});
 	$('.bottom_line_right').css({"border-top-width": $(window).height()/2/3+'px'});
@@ -44,7 +50,8 @@ jQuery(document).ready(function ($) {
     $("form").ajaxForm(function(){
 		//$("a[title='Close']").trigger("click");
 		$("form").clearForm();
-		$("#modal_view_thanks").trigger("click");	
+		$(".fancybox-close-small").trigger("click");
+		$("#modal_view_thanks").trigger("click");		
 	});
 
   	$(".owl-carousel").owlCarousel({
@@ -71,4 +78,13 @@ jQuery(document).ready(function ($) {
         closeEffect : 'none'
     });
 
+});
+
+$(document).ready(function(){
+    $('#owl-work1,#owl-work2,#owl-work3,#owl-work4,#owl-work5,#owl-work6').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+		items:1
+    });
 });

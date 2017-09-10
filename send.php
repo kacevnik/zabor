@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 require 'PHPMailer/PHPMailerAutoload.php';
 
@@ -6,7 +6,7 @@ require 'PHPMailer/PHPMailerAutoload.php';
 // ==== Принудительный захват массива переменных ==========================
 // ==== раскомментировать, если письма отправляются без значений полей ====
 $text = '';
-$adminEmail = 'zabor-nsk54@yandex.ru';
+$adminEmail = 'Sibstroiploshadka@yandex.ru';
 $email = $_POST['email'];     if($email){$text = 'Имя пользователя: '.$email.'<br>';}
 $phone = $_POST['phone'];     if($phone){$text = $text.'Телефон пользователя: '.$phone.'<br>';}
 $message = $_POST['message']; if($message){$text = $text.'Сообщение: '.$message.'<br>';}
