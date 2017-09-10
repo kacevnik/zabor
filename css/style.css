@@ -312,6 +312,7 @@ header .container{
 	background: #fff;
 	text-align: center;
 	margin: 0 0 50px 0;
+	cursor: pointer;
 }
 
 .exemple .bottom{
