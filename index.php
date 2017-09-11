@@ -245,132 +245,48 @@ $(function(){
             <h1>Отчеты о выполненых объектах</h1>
             <div class="owl-carousel">
               <div>
-                <div class="col-md-6">
-                  <div class="galary_frame">
-                    <div class="galaey_frame_show">
-                      <img src="img/a1.jpg">
-                    </div>
-                    <div class="galaey_frame_show_slide">
-                      <div class="galaey_frame_item">
-                        <div class="galaey_frame_item_body">
-                          <img src="img/a1.jpg">
-                        </div>
-                      </div>
-                      <div class="galaey_frame_item">
-                        <div class="galaey_frame_item_body">
-                          <img src="img/a2.jpg">
-                        </div>
-                      </div>
-                      <div class="galaey_frame_item">
-                        <div class="galaey_frame_item_body">
-                          <img src="img/a4.jpg">
-                        </div>
-                      </div>
-                      <div class="galaey_frame_item">
-                        <div class="galaey_frame_item_body">
-                          <img src="img/a3.jpg">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="item_header"><i class="fa fa-home"></i> Место строительства</div>
-                  <div class="item_body">НСО,пос. Рыбачий</div>              
-                  <div class="item_header"><i class="fa fa-clock-o"></i> Время строительства</div>
-                  <div class="item_body">10-12 июня 2017 года</div>              
-                  <div class="item_header"><i class="fa fa-crosshairs"></i> Задача</div>
-                  <div class="item_body">Построить забор, что бы закрыть свой участок от соседей</div>              
-                  <div class="item_header"><i class="fa fa-check-circle-o"></i> Результат</div>
-                  <div class="item_body">Установили забор высотой 2м.</div>              
-                  <div class="item_header"><i class="fa fa-money"></i> Стоимость “под ключ”</div>
-                  <div class="item_body">245 т.р.</div>
+                <div class="col-md-12">
+                  <img src="img/work/work7/1.jpg" alt="">
                 </div>
               </div>
               <div>
-                <div class="col-md-6">
-                  <div class="galary_frame">
-                    <div class="galaey_frame_show">
-                      <img src="img/b1.jpg">
-                    </div>
-                    <div class="galaey_frame_show_slide">
-                      <div class="galaey_frame_item">
-                        <div class="galaey_frame_item_body">
-                          <img src="img/b1.jpg">
-                        </div>
-                      </div>
-                      <div class="galaey_frame_item">
-                        <div class="galaey_frame_item_body">
-                          <img src="img/b2.jpg">
-                        </div>
-                      </div>
-                      <div class="galaey_frame_item">
-                        <div class="galaey_frame_item_body">
-                          <img src="img/b3.jpg">
-                        </div>
-                      </div>
-                      <div class="galaey_frame_item">
-                        <div class="galaey_frame_item_body">
-                          <img src="img/b3.jpg">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="item_header"><i class="fa fa-home"></i> Место строительства</div>
-                  <div class="item_body">Новосибирск, Первомайский р-н</div>              
-                  <div class="item_header"><i class="fa fa-clock-o"></i> Время строительства</div>
-                  <div class="item_body">20-23 июля 2016 года</div>              
-                  <div class="item_header"><i class="fa fa-crosshairs"></i> Задача</div>
-                  <div class="item_body">Красивый забор с откатными воротами на пульте</div>              
-                  <div class="item_header"><i class="fa fa-check-circle-o"></i> Результат</div>
-                  <div class="item_body">Построили коричневый забор с воротами</div>              
-                  <div class="item_header"><i class="fa fa-money"></i> Стоимость “под ключ”</div>
-                  <div class="item_body">235 т.р.</div>
+                <div class="col-md-12">
+                  <img src="img/work/work7/2.jpg" alt="">
                 </div>
               </div>
               <div>
-                <div class="col-md-6">
-                  <div class="galary_frame">
-                    <div class="galaey_frame_show">
-                      <img src="img/c1.jpg">
-                    </div>
-                    <div class="galaey_frame_show_slide">
-                      <div class="galaey_frame_item">
-                        <div class="galaey_frame_item_body">
-                          <img src="img/c1.jpg">
-                        </div>
-                      </div>
-                      <div class="galaey_frame_item">
-                        <div class="galaey_frame_item_body">
-                          <img src="img/c2.jpg">
-                        </div>
-                      </div>
-                      <div class="galaey_frame_item">
-                        <div class="galaey_frame_item_body">
-                          <img src="img/c3.jpg">
-                        </div>
-                      </div>
-                      <div class="galaey_frame_item">
-                        <div class="galaey_frame_item_body">
-                          <img src="img/c3.jpg">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div class="col-md-12">
+                  <img src="img/work/work7/3.jpg" alt="">
                 </div>
-                <div class="col-md-6">
-                  <div class="item_header"><i class="fa fa-home"></i> Место строительства</div>
-                  <div class="item_body">Новосибирск, Заельцовский бор</div>              
-                  <div class="item_header"><i class="fa fa-clock-o"></i> Время строительства</div>
-                  <div class="item_body">5-8 ноябрь 2016 года</div>              
-                  <div class="item_header"><i class="fa fa-crosshairs"></i> Задача</div>
-                  <div class="item_body">Забор из европанелей по эскизам заказчика</div>              
-                  <div class="item_header"><i class="fa fa-check-circle-o"></i> Результат</div>
-                  <div class="item_body">Установили забор по эскизам</div>              
-                  <div class="item_header"><i class="fa fa-money"></i> Стоимость “под ключ”</div>
-                  <div class="item_body">435 т.р.</div>
+              </div>
+              <div>
+                <div class="col-md-12">
+                  <img src="img/work/work7/4.jpg" alt="">
+                </div>
+              </div>
+              <div>
+                <div class="col-md-12">
+                  <img src="img/work/work7/5.jpg" alt="">
+                </div>
+              </div>
+              <div>
+                <div class="col-md-12">
+                  <img src="img/work/work7/6.jpg" alt="">
+                </div>
+              </div>
+              <div>
+                <div class="col-md-12">
+                  <img src="img/work/work7/7.jpg" alt="">
+                </div>
+              </div>
+              <div>
+                <div class="col-md-12">
+                  <img src="img/work/work7/8.jpg" alt="">
+                </div>
+              </div>
+              <div>
+                <div class="col-md-12">
+                  <img src="img/work/work7/9.jpg" alt="">
                 </div>
               </div>
             </div>
