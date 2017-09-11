@@ -82,3 +82,15 @@
 		width: 100%;
 	}
 }
+
+
+@media (max-width: 800px) {
+	.back .answer_form.big-form{
+		max-width: 387px;
+		width: 800px;
+	}
+
+	.img-work-box{
+		display: none;
+	}
+}
