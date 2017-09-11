@@ -104,7 +104,7 @@ $(function(){
           <div class="col-md-4">
           <!--item-->
             <div class="item">
-              <div class="img" style="background: url('img/f1.jpg'); background-size: cover;" data-fancybox data-src="#hidden_work1" href="javascript:;">
+              <div class="img" style="background: url('img/work/work1/1.jpg'); background-size: cover;" data-fancybox data-src="#hidden_work1" href="javascript:;">
                 <div class="shadow">
                   <div class="desc">Забор из профлиста</div>
                     <div class="param">
@@ -126,7 +126,7 @@ $(function(){
           <div class="col-md-4">
             <!--item-->
             <div class="item">
-              <div class="img" style="background: url('img/f2.jpg'); background-size: cover;" data-fancybox data-src="#hidden_work2" href="javascript:;">
+              <div class="img" style="background: url('img/work/work2/1.jpg'); background-size: cover;" data-fancybox data-src="#hidden_work2" href="javascript:;">
                 <div class="shadow">
                   <div class="desc">Евро штакетник</div>
                   <div class="param">
@@ -148,7 +148,7 @@ $(function(){
           <div class="col-md-4">
             <!--item-->
             <div class="item">
-              <div class="img" style="background: url('img/f3.jpg'); background-size: cover;" data-fancybox data-src="#hidden_work3" href="javascript:;">
+              <div class="img" style="background: url('img/work/work3/1.jpg'); background-size: cover;" data-fancybox data-src="#hidden_work3" href="javascript:;">
                 <div class="shadow">
                   <div class="desc">Кирпичный забор</div>
                     <div class="param">
@@ -171,7 +171,7 @@ $(function(){
           <div class="col-md-4">
           <!--item-->
             <div class="item">
-              <div class="img" style="background: url('img/f4.jpg'); background-size: cover;" data-fancybox data-src="#hidden_work4" href="javascript:;">
+              <div class="img" style="background: url('img/work/work4/10.jpg'); background-size: cover;" data-fancybox data-src="#hidden_work4" href="javascript:;">
                 <div class="shadow">
                   <div class="desc">ЗД забор</div>
                     <div class="param">
@@ -193,7 +193,7 @@ $(function(){
           <div class="col-md-4">
             <!--item-->
             <div class="item">
-              <div class="img" style="background: url('img/f5.jpg'); background-size: cover;" data-fancybox data-src="#hidden_work5" href="javascript:;">
+              <div class="img" style="background: url('img/work/work5/1.jpg'); background-size: cover;" data-fancybox data-src="#hidden_work5" href="javascript:;">
                 <div class="shadow">
                   <div class="desc">Художественная ковка</div>
                     <div class="param">
@@ -212,7 +212,7 @@ $(function(){
           <div class="col-md-4">
             <!--item-->
             <div class="item">
-              <div class="img" style="background: url('img/f6.jpg'); background-size: cover;" data-fancybox data-src="#hidden_work6" href="javascript:;">
+              <div class="img" style="background: url('img/work/work6/1.jpg'); background-size: cover;" data-fancybox data-src="#hidden_work6" href="javascript:;">
                 <div class="shadow">
                   <div class="desc">Сетка Рабица</div>
                     <div class="param">
@@ -559,12 +559,51 @@ $(function(){
              <div class="row">
                  <div class="col-md-7">
                      <div id="owl-work1" class="owl-carousel" data-slider-id="1">
-                         <div><img src="img/work/work1/1.jpg" alt=""></div>
-                         <div><img src="img/work/work1/2.jpg" alt=""></div>
-                         <div><img src="img/work/work1/3.jpg" alt=""></div>
-                         <div><img src="img/work/work1/4.jpg" alt=""></div>
-                         <div><img src="img/work/work1/5.jpg" alt=""></div>
-                         <div><img src="img/work/work1/6.jpg" alt=""></div>
+                        <div>                  
+                          <a href="img/work/work1/1.jpg" data-fancybox="group-work11">
+                            <img src="img/work/work1/1.jpg" alt="">
+                          </a>
+                        </div>                        
+                        <div>                  
+                          <a href="img/work/work1/2.jpg" data-fancybox="group-work11">
+                            <img src="img/work/work1/2.jpg" alt="">
+                          </a>
+                        </div>                        
+                        <div>                  
+                          <a href="img/work/work1/3.jpg" data-fancybox="group-work11">
+                            <img src="img/work/work1/3.jpg" alt="">
+                          </a>
+                        </div>                        
+                        <div>                  
+                          <a href="img/work/work1/4.jpg" data-fancybox="group-work11">
+                            <img src="img/work/work1/4.jpg" alt="">
+                          </a>
+                        </div>                        
+                        <div>                  
+                          <a href="img/work/work1/5.jpg" data-fancybox="group-work11">
+                            <img src="img/work/work1/5.jpg" alt="">
+                          </a>
+                        </div>                        
+                        <div>                  
+                          <a href="img/work/work1/6.jpg" data-fancybox="group-work11">
+                            <img src="img/work/work1/6.jpg" alt="">
+                          </a>
+                        </div>                        
+                        <div>                  
+                          <a href="img/work/work1/7.jpg" data-fancybox="group-work11">
+                            <img src="img/work/work1/7.jpg" alt="">
+                          </a>
+                        </div>                        
+                        <div>                  
+                          <a href="img/work/work1/8.jpg" data-fancybox="group-work11">
+                            <img src="img/work/work1/8.jpg" alt="">
+                          </a>
+                        </div>                        
+                        <div>                  
+                          <a href="img/work/work1/9.jpg" data-fancybox="group-work11">
+                            <img src="img/work/work1/9.jpg" alt="">
+                          </a>
+                        </div>
                      </div>
                  </div>
                  <div class="col-md-5">
@@ -592,22 +631,22 @@ $(function(){
                  </div>
              </div>
               <div class="img-work-box">
-                  <a href="img/work/work1/1.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work1/1.jpg" data-fancybox="group-work12">
                     <img src="img/work/work1/1.jpg" alt="">
                   </a>
-                  <a href="img/work/work1/2.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work1/2.jpg" data-fancybox="group-work12">
                       <img src="img/work/work1/2.jpg" alt="">
                   </a>
-                  <a href="img/work/work1/3.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work1/3.jpg" data-fancybox="group-work12">
                       <img src="img/work/work1/3.jpg" alt="">
                   </a>
-                  <a href="img/work/work1/4.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work1/4.jpg" data-fancybox="group-work12">
                       <img src="img/work/work1/4.jpg" alt="">
                   </a>
-                  <a href="img/work/work1/5.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work1/5.jpg" data-fancybox="group-work12">
                       <img src="img/work/work1/5.jpg" alt="">
                   </a>
-                  <a href="img/work/work1/6.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work1/6.jpg" data-fancybox="group-work12">
                       <img src="img/work/work1/6.jpg" alt="">
                   </a>
               </div>
@@ -623,12 +662,31 @@ $(function(){
               <div class="row">
                   <div class="col-md-7">
                       <div id="owl-work2" class="owl-carousel" data-slider-id="1">
-                          <div><img src="img/work/work2/1.jpg" alt=""></div>
-                          <div><img src="img/work/work2/2.jpg" alt=""></div>
-                          <div><img src="img/work/work2/3.jpg" alt=""></div>
-                          <div><img src="img/work/work2/4.jpg" alt=""></div>
-                          <div><img src="img/work/work2/5.jpg" alt=""></div>
-                          <div><img src="img/work/work2/6.jpg" alt=""></div>
+                          <div>
+                            <a href="img/work/work2/1.jpg" data-fancybox="group-work21">
+                              <img src="img/work/work2/1.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work2/2.jpg" data-fancybox="group-work21">
+                              <img src="img/work/work2/2.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work2/3.jpg" data-fancybox="group-work21">
+                              <img src="img/work/work2/3.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work2/4.jpg" data-fancybox="group-work21">
+                              <img src="img/work/work2/4.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work2/5.jpg" data-fancybox="group-work21">
+                              <img src="img/work/work2/5.jpg" alt="">
+                            </a>
+                          </div>                          
                       </div>
                   </div>
                   <div class="col-md-5">
@@ -658,23 +716,20 @@ $(function(){
                   </div>
               </div>
               <div class="img-work-box">
-                  <a href="img/work/work2/1.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work2/1.jpg" data-fancybox="group-work22">
                       <img src="img/work/work2/1.jpg" alt="">
                   </a>
-                  <a href="img/work/work2/2.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work2/2.jpg" data-fancybox="group-work22">
                       <img src="img/work/work2/2.jpg" alt="">
                   </a>
-                  <a href="img/work/work2/3.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work2/3.jpg" data-fancybox="group-work22">
                       <img src="img/work/work2/3.jpg" alt="">
                   </a>
-                  <a href="img/work/work2/4.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work2/4.jpg" data-fancybox="group-work22">
                       <img src="img/work/work2/4.jpg" alt="">
                   </a>
-                  <a href="img/work/work2/5.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work2/5.jpg" data-fancybox="group-work22">
                       <img src="img/work/work2/5.jpg" alt="">
-                  </a>
-                  <a href="img/work/work2/6.jpg" data-fancybox="group-work1" data-caption="Caption #1">
-                      <img src="img/work/work2/6.jpg" alt="">
                   </a>
               </div>
           </div>
@@ -688,12 +743,51 @@ $(function(){
               <div class="row">
                   <div class="col-md-7">
                       <div id="owl-work3" class="owl-carousel" data-slider-id="1">
-                          <div><img src="img/work/work3/1.jpg" alt=""></div>
-                          <div><img src="img/work/work3/2.jpg" alt=""></div>
-                          <div><img src="img/work/work3/3.jpg" alt=""></div>
-                          <div><img src="img/work/work3/4.jpg" alt=""></div>
-                          <div><img src="img/work/work3/5.jpg" alt=""></div>
-                          <div><img src="img/work/work3/6.jpg" alt=""></div>
+                          <div>
+                            <a href="img/work/work3/1.jpg" data-fancybox="group-work31">
+                              <img src="img/work/work3/1.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work3/2.jpg" data-fancybox="group-work31">
+                              <img src="img/work/work3/2.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work3/3.jpg" data-fancybox="group-work31">
+                              <img src="img/work/work3/3.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work3/4.jpg" data-fancybox="group-work31">
+                              <img src="img/work/work3/4.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work3/5.jpg" data-fancybox="group-work31">
+                              <img src="img/work/work3/5.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work3/6.jpg" data-fancybox="group-work31">
+                              <img src="img/work/work3/6.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work3/7.jpg" data-fancybox="group-work31">
+                              <img src="img/work/work3/7.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work3/8.jpg" data-fancybox="group-work31">
+                              <img src="img/work/work3/8.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work3/9.jpg" data-fancybox="group-work31">
+                              <img src="img/work/work3/9.jpg" alt="">
+                            </a>
+                          </div>
                       </div>
                   </div>
                   <div class="col-md-5">
@@ -724,22 +818,22 @@ $(function(){
                   </div>
               </div>
               <div class="img-work-box">
-                  <a href="img/work/work3/1.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work3/1.jpg" data-fancybox="group-work32">
                       <img src="img/work/work3/1.jpg" alt="">
                   </a>
-                  <a href="img/work/work3/2.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work3/2.jpg" data-fancybox="group-work32">
                       <img src="img/work/work3/2.jpg" alt="">
                   </a>
-                  <a href="img/work/work3/3.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work3/3.jpg" data-fancybox="group-work32">
                       <img src="img/work/work3/3.jpg" alt="">
                   </a>
-                  <a href="img/work/work3/4.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work3/4.jpg" data-fancybox="group-work32">
                       <img src="img/work/work3/4.jpg" alt="">
                   </a>
-                  <a href="img/work/work3/5.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work3/5.jpg" data-fancybox="group-work32">
                       <img src="img/work/work3/5.jpg" alt="">
                   </a>
-                  <a href="img/work/work3/6.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work3/6.jpg" data-fancybox="group-work32">
                       <img src="img/work/work3/6.jpg" alt="">
                   </a>
               </div>
@@ -754,12 +848,151 @@ $(function(){
               <div class="row">
                   <div class="col-md-7">
                       <div id="owl-work4" class="owl-carousel" data-slider-id="1">
-                          <div><img src="img/work/work4/1.jpg" alt=""></div>
-                          <div><img src="img/work/work4/2.jpg" alt=""></div>
-                          <div><img src="img/work/work4/3.jpg" alt=""></div>
-                          <div><img src="img/work/work4/4.jpg" alt=""></div>
-                          <div><img src="img/work/work4/5.jpg" alt=""></div>
-                          <div><img src="img/work/work4/6.jpg" alt=""></div>
+                          <div>
+                            <a href="img/work/work4/1.jpg" data-fancybox="group-work41">
+                                <img src="img/work/work4/1.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work4/2.jpg" data-fancybox="group-work41">
+                                <img src="img/work/work4/2.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work4/3.jpg" data-fancybox="group-work41">
+                                <img src="img/work/work4/3.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work4/4.jpg" data-fancybox="group-work41">
+                                <img src="img/work/work4/4.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work4/5.jpg" data-fancybox="group-work41">
+                                <img src="img/work/work4/5.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work4/6.jpg" data-fancybox="group-work41">
+                                <img src="img/work/work4/6.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work4/7.jpg" data-fancybox="group-work41">
+                                <img src="img/work/work4/7.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work4/8.jpg" data-fancybox="group-work41">
+                                <img src="img/work/work4/8.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work4/9.jpg" data-fancybox="group-work41">
+                                <img src="img/work/work4/9.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work4/10.jpg" data-fancybox="group-work41">
+                                <img src="img/work/work4/10.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work4/11.jpg" data-fancybox="group-work41">
+                                <img src="img/work/work4/11.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work4/12.jpg" data-fancybox="group-work41">
+                                <img src="img/work/work4/12.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work4/13.jpg" data-fancybox="group-work41">
+                                <img src="img/work/work4/13.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work4/14.jpg" data-fancybox="group-work41">
+                                <img src="img/work/work4/14.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work4/15.jpg" data-fancybox="group-work41">
+                                <img src="img/work/work4/15.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work4/16.jpg" data-fancybox="group-work41">
+                                <img src="img/work/work4/16.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work4/17.jpg" data-fancybox="group-work41">
+                                <img src="img/work/work4/17.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work4/18.jpg" data-fancybox="group-work41">
+                                <img src="img/work/work4/18.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work4/19.jpg" data-fancybox="group-work41">
+                                <img src="img/work/work4/19.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work4/20.jpg" data-fancybox="group-work41">
+                                <img src="img/work/work4/20.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work4/21.jpg" data-fancybox="group-work41">
+                                <img src="img/work/work4/21.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work4/22.jpg" data-fancybox="group-work41">
+                                <img src="img/work/work4/22.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work4/23.jpg" data-fancybox="group-work41">
+                                <img src="img/work/work4/23.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work4/24.jpg" data-fancybox="group-work41">
+                                <img src="img/work/work4/24.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work4/25.jpg" data-fancybox="group-work41">
+                                <img src="img/work/work4/25.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work4/26.jpg" data-fancybox="group-work41">
+                                <img src="img/work/work4/26.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work4/27.jpg" data-fancybox="group-work41">
+                                <img src="img/work/work4/27.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work4/28.jpg" data-fancybox="group-work41">
+                                <img src="img/work/work4/28.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work4/29.jpg" data-fancybox="group-work41">
+                                <img src="img/work/work4/29.jpg" alt="">
+                            </a>
+                          </div>
                       </div>
                   </div>
                   <div class="col-md-5">
@@ -790,22 +1023,22 @@ $(function(){
                   </div>
               </div>
               <div class="img-work-box">
-                  <a href="img/work/work4/1.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work4/1.jpg" data-fancybox="group-work42">
                       <img src="img/work/work4/1.jpg" alt="">
                   </a>
-                  <a href="img/work/work4/2.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work4/2.jpg" data-fancybox="group-work42">
                       <img src="img/work/work4/2.jpg" alt="">
                   </a>
-                  <a href="img/work/work4/3.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work4/3.jpg" data-fancybox="group-work42">
                       <img src="img/work/work4/3.jpg" alt="">
                   </a>
-                  <a href="img/work/work4/4.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work4/4.jpg" data-fancybox="group-work42">
                       <img src="img/work/work4/4.jpg" alt="">
                   </a>
-                  <a href="img/work/work4/5.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work4/5.jpg" data-fancybox="group-work42">
                       <img src="img/work/work4/5.jpg" alt="">
                   </a>
-                  <a href="img/work/work4/6.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work4/6.jpg" data-fancybox="group-work42">
                       <img src="img/work/work4/6.jpg" alt="">
                   </a>
               </div>
@@ -820,12 +1053,46 @@ $(function(){
               <div class="row">
                   <div class="col-md-7">
                       <div id="owl-work5" class="owl-carousel" data-slider-id="1">
-                          <div><img src="img/work/work5/1.jpg" alt=""></div>
-                          <div><img src="img/work/work5/2.jpg" alt=""></div>
-                          <div><img src="img/work/work5/3.jpg" alt=""></div>
-                          <div><img src="img/work/work5/4.jpg" alt=""></div>
-                          <div><img src="img/work/work5/5.jpg" alt=""></div>
-                          <div><img src="img/work/work5/6.jpg" alt=""></div>
+                          <div>
+                            <a href="img/work/work5/1.jpg" data-fancybox="group-work51">
+                                <img src="img/work/work5/1.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work5/2.jpg" data-fancybox="group-work51">
+                                <img src="img/work/work5/2.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work5/3.jpg" data-fancybox="group-work51">
+                                <img src="img/work/work5/3.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work5/4.jpg" data-fancybox="group-work51">
+                                <img src="img/work/work5/4.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work5/5.jpg" data-fancybox="group-work51">
+                                <img src="img/work/work5/5.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work5/6.jpg" data-fancybox="group-work51">
+                                <img src="img/work/work5/6.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work5/7.jpg" data-fancybox="group-work51">
+                                <img src="img/work/work5/7.jpg" alt="">
+                            </a>
+                          </div>                          
+                          <div>
+                            <a href="img/work/work5/8.jpg" data-fancybox="group-work51">
+                                <img src="img/work/work5/8.jpg" alt="">
+                            </a>
+                          </div>
                       </div>
                   </div>
                   <div class="col-md-5">
@@ -856,22 +1123,22 @@ $(function(){
                   </div>
               </div>
               <div class="img-work-box">
-                  <a href="img/work/work5/1.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work5/1.jpg" data-fancybox="group-work52">
                       <img src="img/work/work5/1.jpg" alt="">
                   </a>
-                  <a href="img/work/work5/2.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work5/2.jpg" data-fancybox="group-work52">
                       <img src="img/work/work5/2.jpg" alt="">
                   </a>
-                  <a href="img/work/work5/3.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work5/3.jpg" data-fancybox="group-work52">
                       <img src="img/work/work5/3.jpg" alt="">
                   </a>
-                  <a href="img/work/work5/4.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work5/4.jpg" data-fancybox="group-work52">
                       <img src="img/work/work5/4.jpg" alt="">
                   </a>
-                  <a href="img/work/work5/5.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work5/5.jpg" data-fancybox="group-work52">
                       <img src="img/work/work5/5.jpg" alt="">
                   </a>
-                  <a href="img/work/work5/6.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work5/6.jpg" data-fancybox="group-work52">
                       <img src="img/work/work5/6.jpg" alt="">
                   </a>
               </div>
@@ -886,12 +1153,36 @@ $(function(){
               <div class="row">
                   <div class="col-md-7">
                       <div id="owl-work6" class="owl-carousel" data-slider-id="1">
-                          <div><img src="img/work/work6/1.jpg" alt=""></div>
-                          <div><img src="img/work/work6/2.jpg" alt=""></div>
-                          <div><img src="img/work/work6/3.jpg" alt=""></div>
-                          <div><img src="img/work/work6/4.jpg" alt=""></div>
-                          <div><img src="img/work/work6/5.jpg" alt=""></div>
-                          <div><img src="img/work/work6/6.jpg" alt=""></div>
+                          <div>
+                            <a href="img/work/work6/1.jpg" data-fancybox="group-work61">
+                                <img src="img/work/work6/1.jpg" alt="">
+                            </a>
+                          </div>
+                          <div>
+                            <a href="img/work/work6/2.jpg" data-fancybox="group-work61">
+                                <img src="img/work/work6/2.jpg" alt="">
+                            </a>
+                          </div>
+                          <div>
+                            <a href="img/work/work6/3.jpg" data-fancybox="group-work61">
+                                <img src="img/work/work6/3.jpg" alt="">
+                            </a>
+                          </div>
+                          <div>
+                            <a href="img/work/work6/4.jpg" data-fancybox="group-work61">
+                                <img src="img/work/work6/4.jpg" alt="">
+                            </a>
+                          </div>
+                          <div>
+                            <a href="img/work/work6/5.jpg" data-fancybox="group-work61">
+                                <img src="img/work/work6/5.jpg" alt="">
+                            </a>
+                          </div>
+                          <div>
+                            <a href="img/work/work6/6.jpg" data-fancybox="group-work61">
+                                <img src="img/work/work6/6.jpg" alt="">
+                            </a>
+                          </div>
                       </div>
                   </div>
                   <div class="col-md-5">
@@ -923,22 +1214,22 @@ $(function(){
                   </div>
               </div>
               <div class="img-work-box">
-                  <a href="img/work/work6/1.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work6/1.jpg" data-fancybox="group-work62">
                       <img src="img/work/work6/1.jpg" alt="">
                   </a>
-                  <a href="img/work/work6/2.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work6/2.jpg" data-fancybox="group-work62">
                       <img src="img/work/work6/2.jpg" alt="">
                   </a>
-                  <a href="img/work/work6/3.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work6/3.jpg" data-fancybox="group-work62">
                       <img src="img/work/work6/3.jpg" alt="">
                   </a>
-                  <a href="img/work/work6/4.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work6/4.jpg" data-fancybox="group-work62">
                       <img src="img/work/work6/4.jpg" alt="">
                   </a>
-                  <a href="img/work/work6/5.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work6/5.jpg" data-fancybox="group-work62">
                       <img src="img/work/work6/5.jpg" alt="">
                   </a>
-                  <a href="img/work/work6/6.jpg" data-fancybox="group-work1" data-caption="Caption #1">
+                  <a href="img/work/work6/6.jpg" data-fancybox="group-work62">
                       <img src="img/work/work6/6.jpg" alt="">
                   </a>
               </div>
