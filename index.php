@@ -300,40 +300,20 @@ $(function(){
       <div class="scene video_otziv_body" id="video_otziv">
         <div class="container">
           <h1>Отзывы о нашей работе</h1>
-          <div class="row p-b-50">
-            <div class="col-md-5 col-md-offset-1">
+<div class="owl-carousel">
+
+            <div class="col-md-8 col-md-offset-2">
               <div class="video">
                 <a class="sh2-video" data-fancybox href="https://www.youtube.com/watch?v=JaZ4YHaKy2c"></a>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="item">
-                <div class="header">Место</div>
-                <div class="body">Плотниково, СНТ “Название”</div>                
-                <div class="header">Материал</div>
-                <div class="body">Профнастил забор</div>                
-                <div class="header">Стоимость</div>
-                <div class="body">250 т.р.</div>
-              </div>
-            </div>
-          </div>
-          <div class="row p-b-50" style="margin-bottom: 150px;">
-            <div class="col-md-5 col-md-offset-1">
+
+            <div class="col-md-8 col-md-offset-1">
               <div class="video">
                 <a class="sh3-video" data-fancybox href="https://www.youtube.com/watch?v=7wvofifhiGg"></a>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="item">
-                   <div class="header">Место</div>
-                <div class="body">Новолуговое</div>                
-                <div class="header">Материал</div>
-                <div class="body">Евроштакетник</div>                
-                <div class="header">Стоимость</div>
-                <div class="body">250 т.р.</div>
-              </div>
-            </div>
-          </div>
+</div>
         </div>
         <div class="bottom_line_left"></div>
         <div class="bottom_line_right"></div>

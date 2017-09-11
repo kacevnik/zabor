@@ -477,6 +477,8 @@ header .container{
 .video_otziv_body{
 	position: relative;
 	color: #fff;
+	min-height: 800px;
+	padding: 0 0 350px 0;
 }
 
 .video_otziv_body h1{
@@ -500,7 +502,7 @@ header .container{
 
 .video_otziv_body .video a{
 	display: block;
-	height: 250px;
+	height: 400px;
 	border-radius: 10px;
 	background: #000 url('../img/show_video.png')no-repeat center center;
 }
